@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/img/favicon/safari-pinned-tab.svg"
+      color="#151515"
+    />
+    <meta name="msapplication-TileColor" content="#151515" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="container">
+          <div class="inheader">
+            <a href="./index.html" class="logo"
+              ><img src="img/dm-white 1.svg" alt=""
+            /></a>
+            <nav class="menu">
+              <button class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <ul class="menu-list">
+                <li>
+                  <a
+                    class="menu-list-link menu-list-link--active"
+                    href="cars.html"
+                    >NEW CARS</a
+                  >
+                </li>
+                <li><a class="menu-list-link" href="#">PRE-OWNED CARS</a></li>
+                <li><a class="menu-list-link" href="#">FINANCE</a></li>
+                <li><a class="menu-list-link" href="#">LEASE VS BUY</a></li>
+                <li>
+                  <a class="menu-list-link" href="contact.html">CONTACT US</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="choose">
+          <div class="container">
+            <h2 class="choose-name">Choose your car</h2>
+            <div class="tabs">
+              <div class="tabs-btn">
+                <button
+                  class="tabs-btn-el tabs-btn-el--active"
+                  data-button="content-1"
+                >
+                  Car and Minivan
+                </button>
+                <button class="tabs-btn-el" data-button="content-2">
+                  Trucks
+                </button>
+                <button class="tabs-btn-el" data-button="content-3">
+                  Crossovers & SUVs
+                </button>
+                <button class="tabs-btn-el" data-button="content-4">
+                  Electrified
+                </button>
+              </div>
+              <div class="tabs-content">
+                <div
+                  class="tabs-content-el tabs-content-el--active"
+                  id="content-1"
+                >
+                  <div class="card">
+                    <img src="img/card/card-1.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Toyota Crown 2023</h3>
+                      <p class="card-txt">starting from $ 39900</p>
+                      <h3 class="card-price">$ 650/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/card-2.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Prius Prime 2023</h3>
+                      <p class="card-txt">starting from $ 39900</p>
+                      <h3 class="card-price">$ 450/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/card-3.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Toyota Prius 2023</h3>
+                      <p class="card-txt">starting from $ 39900</p>
+                      <h3 class="card-price">$ 400/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/card-4.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Hyundai Kona 2023</h3>
+                      <p class="card-txt">starting from $ 39900</p>
+                      <h3 class="card-price">$ 510/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/card-5.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Ford Explorer 2023</h3>
+                      <p class="card-txt">starting from $ 39900</p>
+                      <h3 class="card-price">$ 1,013/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/card-6.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Santa Fe 2023</h3>
+                      <p class="card-txt">starting from $ 39900</p>
+                      <h3 class="card-price">$ 739/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/card-7.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">KIA Niro 2023</h3>
+                      <p class="card-txt">starting from $ 33600</p>
+                      <h3 class="card-price">$ 554/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/card-8.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Chevrolet Silverado</h3>
+                      <p class="card-txt">starting from $ 62260</p>
+                      <h3 class="card-price">$ 1,032/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/card-9.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Honda CR-V 2023</h3>
+                      <p class="card-txt">starting from $ 35650</p>
+                      <h3 class="card-price">$ 591/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/card-10.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Hyundai Tucson</h3>
+                      <p class="card-txt">starting from $ 31885</p>
+                      <h3 class="card-price">$ 528/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/card-11.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Chevrolet Equinox</h3>
+                      <p class="card-txt">starting from $ 28430</p>
+                      <h3 class="card-price">$ 471/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/card-12.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Jeep Wrangler 2023</h3>
+                      <p class="card-txt">starting from $ 60000</p>
+                      <h3 class="card-price">$ 997/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                </div>
+                <div class="tabs-content-el" id="content-2">
+                  <div class="card">
+                    <img src="img/card/truck-1.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Toyota Tundra</h3>
+                      <p class="card-txt">starting from $ 79940</p>
+                      <h3 class="card-price">$ 1,119/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/truck-2.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Ram Heavy Duty</h3>
+                      <p class="card-txt">starting from $ 90830</p>
+                      <h3 class="card-price">$ 1,362/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/truck-3.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Ford Super Duty</h3>
+                      <p class="card-txt">starting from $ 85390</p>
+                      <h3 class="card-price">$ 1,280/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/truck-4.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Ford F-150</h3>
+                      <p class="card-txt">starting from $ 85 390</p>
+                      <h3 class="card-price">$ 1,109/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/truck-4.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Toyota Tundra</h3>
+                      <p class="card-txt">starting from $ 79940</p>
+                      <h3 class="card-price">$ 1,119/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/truck-1.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Ram Heavy Duty</h3>
+                      <p class="card-txt">starting from $ 90830</p>
+                      <h3 class="card-price">$ 1,362/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/truck-2.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Ford Super Duty</h3>
+                      <p class="card-txt">starting from $ 85390</p>
+                      <h3 class="card-price">$ 1,280/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/truck-3.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Ford F-150</h3>
+                      <p class="card-txt">starting from $ 85 390</p>
+                      <h3 class="card-price">$ 1,109/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/truck-3.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Toyota Tundra</h3>
+                      <p class="card-txt">starting from $ 79940</p>
+                      <h3 class="card-price">$ 1,119/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/truck-1.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Ram Heavy Duty</h3>
+                      <p class="card-txt">starting from $ 90830</p>
+                      <h3 class="card-price">$ 1,362/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/truck-4.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Ford Super Duty</h3>
+                      <p class="card-txt">starting from $ 85390</p>
+                      <h3 class="card-price">$ 1,280/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img src="img/card/truck-2.jpg" alt="" class="card-img" />
+                    <div class="card-content">
+                      <h3 class="card-name">Ford F-150</h3>
+                      <p class="card-txt">starting from $ 85 390</p>
+                      <h3 class="card-price">$ 1,109/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                </div>
+                <div class="tabs-content-el" id="content-3">
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-1.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Hyundai Tucson</h3>
+                      <p class="card-txt">starting from $ 30 900</p>
+                      <h3 class="card-price">$ 463/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-2.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Mazda CX-5</h3>
+                      <p class="card-txt">starting from $ 26 700</p>
+                      <h3 class="card-price">$ 400/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-3.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Hyundai Ioniq 5</h3>
+                      <p class="card-txt">starting from $ 41 450</p>
+                      <h3 class="card-price">$ 621/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-4.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Mazda CX-90 PHEV</h3>
+                      <p class="card-txt">starting from $ 47 445</p>
+                      <h3 class="card-price">$ 711/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-3.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Hyundai Tucson</h3>
+                      <p class="card-txt">starting from $ 30 900</p>
+                      <h3 class="card-price">$ 463/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-1.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Mazda CX-5</h3>
+                      <p class="card-txt">starting from $ 26 700</p>
+                      <h3 class="card-price">$ 400/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-4.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Hyundai Ioniq 5</h3>
+                      <p class="card-txt">starting from $ 41 450</p>
+                      <h3 class="card-price">$ 621/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-2.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Mazda CX-90 PHEV</h3>
+                      <p class="card-txt">starting from $ 47 445</p>
+                      <h3 class="card-price">$ 711/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-4.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Hyundai Tucson</h3>
+                      <p class="card-txt">starting from $ 30 900</p>
+                      <h3 class="card-price">$ 463/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-3.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Mazda CX-5</h3>
+                      <p class="card-txt">starting from $ 26 700</p>
+                      <h3 class="card-price">$ 400/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-1.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Hyundai Ioniq 5</h3>
+                      <p class="card-txt">starting from $ 41 450</p>
+                      <h3 class="card-price">$ 621/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/crossover-3.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Mazda CX-90 PHEV</h3>
+                      <p class="card-txt">starting from $ 47 445</p>
+                      <h3 class="card-price">$ 711/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                </div>
+                <div class="tabs-content-el" id="content-4">
+                  <div class="card">
+                    <img
+                      src="img/card/electric-1.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Chevrolet Bolt EV.</h3>
+                      <p class="card-txt">starting from $ 27 495</p>
+                      <h3 class="card-price">$ 412/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/electric-2.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Kia Niro EV.</h3>
+                      <p class="card-txt">starting from $ 39 550</p>
+                      <h3 class="card-price">$ 593/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/electric-3.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Nissan LEAF.</h3>
+                      <p class="card-txt">starting from $ 28 040</p>
+                      <h3 class="card-price">$ 420/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/electric-4.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Hyundai Ioniq 5.</h3>
+                      <p class="card-txt">starting from $ 42 785</p>
+                      <h3 class="card-price">$ 641/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/electric-1.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Chevrolet Bolt EV.</h3>
+                      <p class="card-txt">starting from $ 27 495</p>
+                      <h3 class="card-price">$ 412/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/electric-2.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Kia Niro EV.</h3>
+                      <p class="card-txt">starting from $ 39 550</p>
+                      <h3 class="card-price">$ 593/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/electric-3.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Nissan LEAF.</h3>
+                      <p class="card-txt">starting from $ 28 040</p>
+                      <h3 class="card-price">$ 420/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/electric-4.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Hyundai Ioniq 5.</h3>
+                      <p class="card-txt">starting from $ 42 785</p>
+                      <h3 class="card-price">$ 641/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/electric-1.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Chevrolet Bolt EV.</h3>
+                      <p class="card-txt">starting from $ 27 495</p>
+                      <h3 class="card-price">$ 412/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/electric-2.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Kia Niro EV.</h3>
+                      <p class="card-txt">starting from $ 39 550</p>
+                      <h3 class="card-price">$ 593/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/electric-3.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Nissan LEAF.</h3>
+                      <p class="card-txt">starting from $ 28 040</p>
+                      <h3 class="card-price">$ 420/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="img/card/electric-4.jpg"
+                      alt=""
+                      class="card-img"
+                    />
+                    <div class="card-content">
+                      <h3 class="card-name">Hyundai Ioniq 5.</h3>
+                      <p class="card-txt">starting from $ 42 785</p>
+                      <h3 class="card-price">$ 641/mo</h3>
+                    </div>
+                    <a href="" class="card-link">see details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="show-more">
+              <a href="#" class="show-more-btn">SHOW MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="news">
+          <div class="container">
+            <div class="news-content">
+              <div class="news-el">
+                <img src="img/news/news-1.jpg" alt="" class="news-el-img" />
+                <div class="news-el-content">
+                  <p class="news-el-txt">
+                    An easier way to buy your next Toyota
+                  </p>
+                  <a href="" class="news-link">more</a>
+                </div>
+              </div>
+              <div class="news-el">
+                <img src="img/news/news-2.jpg" alt="" class="news-el-img" />
+                <div class="news-el-content">
+                  <p class="news-el-txt">A Guide to Road-Tripping With Pets</p>
+                  <a href="" class="news-link">more</a>
+                </div>
+              </div>
+            </div>
+            <div class="show-more">
+              <a href="#" class="show-more-btn">SHOW MORE</a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <nav class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-menu-el">
+                <p class="footer-menu-txt">Products</p>
+              </li>
+              <li class="footer-menu-el">
+                <a href="#" class="footer-menu-link">Used</a>
+              </li>
+              <li class="footer-menu-el">
+                <a href="cars.html" class="footer-menu-link">New</a>
+              </li>
+              <li class="footer-menu-el">
+                <a href="#" class="footer-menu-link">Sell your car</a>
+              </li>
+            </ul>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-el">
+                <p class="footer-menu-txt">Resources</p>
+              </li>
+              <li class="footer-menu-el">
+                <a href="#" class="footer-menu-link">Blog</a>
+              </li>
+              <li class="footer-menu-el">
+                <a href="#" class="footer-menu-link">FAQ</a>
+              </li>
+              <li class="footer-menu-el">
+                <a href="contact.html" class="footer-menu-link">Contact us</a>
+              </li>
+            </ul>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-el">
+                <p class="footer-menu-txt footer-menu-txt-2">
+                  Work With TrueCar
+                </p>
+              </li>
+              <li class="footer-menu-el">
+                <a href="#" class="footer-menu-link">Dealers</a>
+              </li>
+              <li class="footer-menu-el">
+                <a href="#" class="footer-menu-link">Partners</a>
+              </li>
+            </ul>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-el">
+                <p class="footer-menu-txt footer-menu-txt-2">About</p>
+              </li>
+              <li class="footer-menu-el">
+                <a href="#" class="footer-menu-link">About us</a>
+              </li>
+              <li class="footer-menu-el">
+                <a href="#" class="footer-menu-link">Team</a>
+              </li>
+              <li class="footer-menu-el">
+                <a href="#" class="footer-menu-link">Careers</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="apps">
+            <li class="app-el">
+              <a href="#" class="app-el-link">
+                <img src="img/app-store.svg" alt="" class="app-el-img" />
+              </a>
+            </li>
+            <li class="app-el">
+              <a href="#" class="app-el-link">
+                <img src="img/google-play.svg" alt="" class="app-el-img" />
+              </a>
+            </li>
+          </ul>
+          <div class="footer-txt">
+            <p>
+              For questions about the TrueCar Auto Buying Service please call
+              1-888-878-3227. Certified Dealers are contractually obligated by
+              TrueCar to meet certain customer service requirements and complete
+              the TrueCar Dealer Certification Program.
+            </p>
+            <p>
+              TrueCar does not broker, sell, or lease motor vehicles. Unless
+              otherwise noted, all vehicles shown on this website are offered
+              for sale by licensed motor vehicle dealers. All vehicles are
+              subject to prior sale. By accessing this website, you agree to the
+              TrueCar Terms of Service and Privacy Policy.
+            </p>
+          </div>
+          <nav class="footer-end">
+            <ul class="footer-end-list">
+              <li class="footer-end-el">
+                <a href="#" class="footer-end-link">Terms of Service</a>
+              </li>
+              <li class="footer-end-el">
+                <a href="#" class="footer-end-link">Privacy Policy</a>
+              </li>
+              <li class="footer-end-el">
+                <a href="#" class="footer-end-link"
+                  >Do Not Sell My Personal Information</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
